@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace KillInsteadOfDespawn
 {
-    public class KillInsteadOfDespawn
+    public class KillInsteadOfDespawn : MonoBehaviour
     {
         [ExecuteOnGameStart]
         private static void Load()
