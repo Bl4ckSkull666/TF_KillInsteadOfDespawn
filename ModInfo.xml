@@ -1,0 +1,18 @@
+<Mod ID="KillInsteadOfDespawn">
+  <Compatible>1.11</Compatible>
+  <Button ID="">
+    <Name>
+      <DE></DE>
+    </Name>
+    <Description>
+      <DE></DE>
+    </Description>
+  </Button>
+  <Name>
+    <DE>Kill instead of Despawn</DE>
+  </Name>
+  <Description>
+    <DE>Kill enemies instead of despawn on day begun</DE>
+  </Description>
+  <Version>1.0.0.1</Version>
+</Mod>
