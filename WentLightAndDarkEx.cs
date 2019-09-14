@@ -5,7 +5,7 @@ using System;
 
 namespace KillInsteadOfDespawn
 {
-    public class sceneTrackerEx : sceneTracker
+    public class WentLightAndDarkEx : sceneTracker
     {
         public override void WentLight()
         {

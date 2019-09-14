@@ -1,8 +1,4 @@
 ﻿using ModAPI.Attributes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using UnityEngine;
 
 namespace KillInsteadOfDespawn
@@ -14,7 +10,7 @@ namespace KillInsteadOfDespawn
         {
             ModAPI.Log.Write("Loading Kill instead of DeSpawn");
             GameObject obj = new GameObject("__KillInsteadOfDespawn__");
-            obj.AddComponent<sceneTrackerEx>();
+            obj.AddComponent<WentLightAndDarkEx>();
             
         }
 
