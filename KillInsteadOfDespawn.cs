@@ -9,9 +9,8 @@ namespace KillInsteadOfDespawn
         private static void Load()
         {
             ModAPI.Log.Write("Loading Kill instead of DeSpawn");
-            GameObject obj = new GameObject("__KillInsteadOfDespawn__");
-            obj.AddComponent<WentLightAndDarkEx>();
-            
+            /* GameObject obj = new GameObject("__KillInsteadOfDespawn__");
+            obj.AddComponent<WentLightAndDarkEx>(); */
         }
 
         private void Start()
