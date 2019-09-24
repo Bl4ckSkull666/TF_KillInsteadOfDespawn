@@ -12,10 +12,5 @@ namespace KillInsteadOfDespawn
             /* GameObject obj = new GameObject("__KillInsteadOfDespawn__");
             obj.AddComponent<WentLightAndDarkEx>(); */
         }
-
-        private void Start()
-        {
-            ModAPI.Log.Write("Starting Kill instead of DeSpawn");
-        }
     }
 }

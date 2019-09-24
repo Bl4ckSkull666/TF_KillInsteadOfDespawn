@@ -57,6 +57,14 @@
       <HintPath>../../../modlib/TheForestDedicatedServer/TheForestDedicatedServer_data/Managed/UnityScript.Lang.dll</HintPath>
       <Private>False</Private>
     </Reference>
+<Reference Include="bolt">
+      <HintPath>../../../modlib/TheForestDedicatedServer/TheForestDedicatedServer_data/Managed/bolt.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+<Reference Include="bolt.user">
+      <HintPath>../../../modlib/TheForestDedicatedServer/TheForestDedicatedServer_data/Managed/bolt.user.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
 <Reference Include="Boo.Lang">
       <HintPath>../../../modlib/TheForestDedicatedServer/TheForestDedicatedServer_data/Managed/Boo.Lang.dll</HintPath>
       <Private>False</Private>
@@ -71,6 +79,10 @@
     </Reference>
 <Reference Include="mscorlib">
       <HintPath>../../../modlib/TheForestDedicatedServer/TheForestDedicatedServer_data/Managed/mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+<Reference Include="Newtonsoft.Json">
+      <HintPath>../../../modlib/TheForestDedicatedServer/TheForestDedicatedServer_data/Managed/Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
 <Reference Include="Pathfinding.ClipperLib">
@@ -153,7 +165,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="KillInsteadOfDespawn.cs"  />
-<Compile Include="WentLightAndDarkEx.cs"  />
+<Compile Include="Overrides\WentLightAndDarkEx.cs"  />
 
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
